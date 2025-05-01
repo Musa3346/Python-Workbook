@@ -1,0 +1,14 @@
+
+
+
+first_Name = input("Enter your first name: ")
+surname_Name = input("Enter your last name: ")
+
+
+print(first_Name + " " + surname_Name)
+
+
+print(surname_Name + " " + first_Name)
+
+if first_Name and surname_Name:
+    print(first_Name + " " + surname_Name)  # If no space between names, add one
